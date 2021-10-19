@@ -1,0 +1,81 @@
+{'world': [64, 128, 160], 'rows': [100000000], 'it': 5}
+data generated
+world sz 64 procs per worker 7 iter 5
+stopping workers
+starting head
+running: ssh v-001 /N/u2/d/dnperera/victor/MODIN/bin/ray start --head --port=6379 --node-ip-address=v-001 --redis-password=1234 --num-cpus=7
+running: ssh v-002 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-002 --redis-password=1234 --num-cpus=7
+running: ssh v-003 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-003 --redis-password=1234 --num-cpus=7
+running: ssh v-004 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-004 --redis-password=1234 --num-cpus=7
+running: ssh v-005 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-005 --redis-password=1234 --num-cpus=7
+running: ssh v-006 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-006 --redis-password=1234 --num-cpus=7
+running: ssh v-007 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-007 --redis-password=1234 --num-cpus=7
+running: ssh v-008 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-008 --redis-password=1234 --num-cpus=7
+running: ssh v-009 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-009 --redis-password=1234 --num-cpus=7
+running: ssh v-010 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-010 --redis-password=1234 --num-cpus=7
+2021-10-19 17:29:30,364	INFO worker.py:826 -- Connecting to existing Ray cluster at address: 172.29.200.201:6379
+data loaded
+timings 100000000 64 0 49896 ms, 100001044
+data loaded
+timings 100000000 64 1 44080 ms, 100001044
+data loaded
+timings 100000000 64 2 44987 ms, 100001044
+data loaded
+timings 100000000 64 3 45993 ms, 100001044
+data loaded
+timings 100000000 64 4 45907 ms, 100001044
+stopping workers
+world sz 128 procs per worker 13 iter 5
+stopping workers
+starting head
+running: ssh v-001 /N/u2/d/dnperera/victor/MODIN/bin/ray start --head --port=6379 --node-ip-address=v-001 --redis-password=1234 --num-cpus=13
+running: ssh v-002 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-002 --redis-password=1234 --num-cpus=13
+running: ssh v-003 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-003 --redis-password=1234 --num-cpus=13
+running: ssh v-004 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-004 --redis-password=1234 --num-cpus=13
+running: ssh v-005 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-005 --redis-password=1234 --num-cpus=13
+running: ssh v-006 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-006 --redis-password=1234 --num-cpus=13
+running: ssh v-007 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-007 --redis-password=1234 --num-cpus=13
+running: ssh v-008 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-008 --redis-password=1234 --num-cpus=13
+running: ssh v-009 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-009 --redis-password=1234 --num-cpus=13
+running: ssh v-010 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-010 --redis-password=1234 --num-cpus=13
+UserWarning: Distributing <class 'numpy.ndarray'> object. This may take some time.
+2021-10-19 17:45:05,465	INFO worker.py:826 -- Connecting to existing Ray cluster at address: 172.29.200.201:6379
+data loaded
+[2m[36m(apply_func pid=46076, ip=149.165.146.210)[0m 
+timings 100000000 128 0 58868 ms, 100001044
+data loaded
+timings 100000000 128 1 49022 ms, 100001044
+data loaded
+timings 100000000 128 2 49009 ms, 100001044
+data loaded
+timings 100000000 128 3 49102 ms, 100001044
+data loaded
+timings 100000000 128 4 46967 ms, 100001044
+stopping workers
+world sz 160 procs per worker 16 iter 5
+stopping workers
+starting head
+running: ssh v-001 /N/u2/d/dnperera/victor/MODIN/bin/ray start --head --port=6379 --node-ip-address=v-001 --redis-password=1234 --num-cpus=16
+running: ssh v-002 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-002 --redis-password=1234 --num-cpus=16
+running: ssh v-003 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-003 --redis-password=1234 --num-cpus=16
+running: ssh v-004 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-004 --redis-password=1234 --num-cpus=16
+running: ssh v-005 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-005 --redis-password=1234 --num-cpus=16
+running: ssh v-006 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-006 --redis-password=1234 --num-cpus=16
+running: ssh v-007 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-007 --redis-password=1234 --num-cpus=16
+running: ssh v-008 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-008 --redis-password=1234 --num-cpus=16
+running: ssh v-009 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-009 --redis-password=1234 --num-cpus=16
+running: ssh v-010 /N/u2/d/dnperera/victor/MODIN/bin/ray start --address='v-001:6379' --node-ip-address=v-010 --redis-password=1234 --num-cpus=16
+2021-10-19 18:01:14,393	INFO worker.py:826 -- Connecting to existing Ray cluster at address: 172.29.200.201:6379
+data loaded
+timings 100000000 160 0 62665 ms, 100001044
+data loaded
+timings 100000000 160 1 52288 ms, 100001044
+data loaded
+timings 100000000 160 2 52359 ms, 100001044
+data loaded
+timings 100000000 160 3 53193 ms, 100001044
+data loaded
+timings 100000000 160 4 53134 ms, 100001044
+stopping workers
+UserWarning: Distributing <class 'dict'> object. This may take some time.
+2021-10-19 18:16:59,460	INFO services.py:1250 -- View the Ray dashboard at [1m[32mhttp://127.0.0.1:8265[39m[22m
